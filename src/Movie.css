@@ -24,14 +24,15 @@
 }
 
 .Movie h1 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .Movie .Movie__Genres {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .Movie__Genres .Movie__Genre {
@@ -43,6 +44,7 @@
   line-height: 200%;
   text-overflow: ellipsis;
   color: #838697;
+  font-size: 16px;
   overflow: hidden;
 }
 
